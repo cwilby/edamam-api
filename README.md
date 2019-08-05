@@ -5,7 +5,7 @@
 
 Edamam-node is a Node.js helper library for the [Edamam](https://edamam.com) nutritional API.
 
-Full documentation for their services can be found [here](https://developer.edamam.com/) under the Documentation tab.
+Full documentation for Edamam's services can be found [here](https://developer.edamam.com/) under the Documentation tab.
 
 ## Installation
 
