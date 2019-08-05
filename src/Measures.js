@@ -1,0 +1,22 @@
+module.exports = {
+  kilogram: 'http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram',
+  gram: 'http://www.edamam.com/ontologies/edamam.owl#Measure_gram',
+  pound: 'http://www.edamam.com/ontologies/edamam.owl#Measure_pound',
+  ounce: 'http://www.edamam.com/ontologies/edamam.owl#Measure_ounce',
+  serving: 'http://www.edamam.com/ontologies/edamam.owl#Measure_serving',
+  cup: 'http://www.edamam.com/ontologies/edamam.owl#Measure_cup',
+  whole: 'http://www.edamam.com/ontologies/edamam.owl#Measure_unit',
+  liter: 'http://www.edamam.com/ontologies/edamam.owl#Measure_liter',
+  milliliter: 'http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter',
+  'cubic inch': 'http://www.edamam.com/ontologies/edamam.owl#Measure_cubic_inch',
+  quart: 'http://www.edamam.com/ontologies/edamam.owl#Measure_quart',
+  drop: 'http://www.edamam.com/ontologies/edamam.owl#Measure_drop',
+  gallon: 'http://www.edamam.com/ontologies/edamam.owl#Measure_gallon',
+  dash: 'http://www.edamam.com/ontologies/edamam.owl#Measure_dash',
+  'fluid ounce': 'http://www.edamam.com/ontologies/edamam.owl#Measure_fluid_ounce',
+  pint: 'http://www.edamam.com/ontologies/edamam.owl#Measure_pint',
+  pinch: 'http://www.edamam.com/ontologies/edamam.owl#Measure_pinch',
+  teaspoon: 'http://www.edamam.com/ontologies/edamam.owl#Measure_teaspoon',
+  tablespoon: 'http://www.edamam.com/ontologies/edamam.owl#Measure_tablespoon',
+  'dessert spoon': 'http://www.edamam.com/ontologies/edamam.owl#Measure_dessert_spoon'
+};
