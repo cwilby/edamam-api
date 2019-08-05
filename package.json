@@ -5,6 +5,10 @@
   "author": "Cameron Wilby",
   "license": "ISC",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwilby/edamam-node.git"
+  },
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
