@@ -17,7 +17,7 @@ module.exports = class NutritionAnalysisClient extends EdamamClient {
     return this.get('nutrition-data', {
       params: {
         'nutrition-type': nutritionType,
-        ingredient: encodeURIComponent(ingredient)
+        ingr: encodeURIComponent(ingredient)
       }
     });
   }

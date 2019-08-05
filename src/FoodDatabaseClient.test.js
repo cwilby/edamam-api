@@ -7,7 +7,7 @@ const client = new FoodDatabaseClient({
 });
 
 it('should search for food', async () => {
-  const data = await client.search({ ingr: 'Apple' });
+  const data = await client.search({ query: 'Apple' });
 
   expect(data).toMatchObject({
     text: 'Apple'
