@@ -29,6 +29,8 @@ it('should get nutrients for food', async () => {
 });
 
 it('should get autocomplete suggestions', async () => {
+  jest.setTimeout(30000);
+  
   const data = await client.autocomplete({ query: 'Apple', limit: 10 });
 
   expect(data).toBeInstanceOf(Array);
