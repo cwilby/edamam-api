@@ -3,7 +3,7 @@
 [![CircleCI](https://circleci.com/gh/cwilby/edamam-api.svg?style=svg)](https://circleci.com/gh/cwilby/edamam-api)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/360b9f88cbe549e2b7498ee6f6379aed)](https://www.codacy.com/app/cwilby/edamam-node?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cwilby/edamam-node&amp;utm_campaign=Badge_Grade)
 
-Edamam-api is a Node.js helper library for the [Edamam](https://edamam.com) nutritional API.
+Edamam-api is a helper library for the [Edamam](https://edamam.com) nutritional API.
 
 Full documentation for Edamam's services can be found [here](https://developer.edamam.com/) under the Documentation tab.
 
