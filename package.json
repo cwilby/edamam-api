@@ -2,6 +2,13 @@
   "name": "edamam-api",
   "version": "0.0.0-development",
   "description": "Node.js helper library https://edamam.com",
+  "keywords": [
+    "edamam",
+    "api",
+    "food",
+    "nutrition",
+    "promise"
+  ],
   "author": "Cameron Wilby",
   "license": "ISC",
   "main": "src/index.js",

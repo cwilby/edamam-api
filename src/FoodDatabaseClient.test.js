@@ -7,6 +7,8 @@ const client = new FoodDatabaseClient({
 });
 
 it('should search for food', async () => {
+  jest.setTimeout(30000);
+
   const data = await client.search({ query: 'Apple' });
 
   expect(data).toMatchObject({
@@ -15,6 +17,8 @@ it('should search for food', async () => {
 });
 
 it('should get nutrients for food', async () => {
+  jest.setTimeout(30000);
+
   const data = await client.getNutrients({
     ingredients: [{
       quantity: 1,
@@ -29,6 +33,8 @@ it('should get nutrients for food', async () => {
 });
 
 it('should get autocomplete suggestions', async () => {
+  jest.setTimeout(30000);
+
   const data = await client.autocomplete({ query: 'Apple', limit: 10 });
 
   expect(data).toBeInstanceOf(Array);

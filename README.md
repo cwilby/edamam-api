@@ -1,15 +1,15 @@
-# edamam-node
+# edamam-api
 
-[![CircleCI](https://circleci.com/gh/cwilby/edamam-node/tree/master.svg?style=svg)](https://circleci.com/gh/cwilby/edamam-node/tree/master)
+[![CircleCI](https://circleci.com/gh/cwilby/edamam-api.svg?style=svg)](https://circleci.com/gh/cwilby/edamam-api)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/360b9f88cbe549e2b7498ee6f6379aed)](https://www.codacy.com/app/cwilby/edamam-node?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cwilby/edamam-node&amp;utm_campaign=Badge_Grade)
 
-Edamam-node is a Node.js helper library for the [Edamam](https://edamam.com) nutritional API.
+Edamam-api is a helper library for the [Edamam](https://edamam.com) nutritional API.
 
 Full documentation for Edamam's services can be found [here](https://developer.edamam.com/) under the Documentation tab.
 
 ## Installation
 
-`npm install --save edamam-node`
+`npm install --save edamam-api`
 
 ## Usage
 
@@ -23,7 +23,7 @@ Full documentation for Edamam's services can be found [here](https://developer.e
 **Example**
 
 ```js
-const { RecipeSearchClient } = require('edamam-node');
+const { RecipeSearchClient } = require('edamam-api');
 
 const client = new RecipeSearchClient({
   appId: '<Your Edamam Recipe Search App Id>',
@@ -42,7 +42,7 @@ const results = await client.search({ query: 'Bread' });
 **Example**
 
 ```js
-const { FoodDatabaseClient } = require('edamam-node');
+const { FoodDatabaseClient } = require('edamam-api');
 
 const client = new FoodDatabaseClient({
   appId: '<Your Edamam Food Database App Id>',
@@ -63,7 +63,7 @@ const foods = client.search({ query: 'Flour' });
 **Example**
 
 ```js
-const { NutritionAnalysisClient } = require('edamam-node');
+const { NutritionAnalysisClient } = require('edamam-api');
 
 (async () => {
 
@@ -87,7 +87,7 @@ const { NutritionAnalysisClient } = require('edamam-node');
 **Example**
 
 ```js
-const { FoodDatabaseClient, Measures } = require('edamam-node');
+const { FoodDatabaseClient, Measures } = require('edamam-api');
 
 const client = new FoodDatabaseClient({
   appId: '<Your Edamam Food Database App Id>',
